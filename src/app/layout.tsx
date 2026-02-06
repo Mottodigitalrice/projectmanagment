@@ -8,8 +8,8 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Demo App | Mottodigital",
-  description: "Built by Mottodigital",
+  title: "NEXUS | Space Terminal Project Manager",
+  description: "Space Terminal Project Manager — Built by Mottodigital",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja">
+    <html lang="en" className="dark">
       <body className={inter.className}>
         <ClerkClientProvider>
           <ConvexClientProvider>

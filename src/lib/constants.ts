@@ -1,5 +1,5 @@
-export const APP_NAME = "Demo App";
-export const APP_DESCRIPTION = "Built by Mottodigital";
+export const APP_NAME = "NEXUS";
+export const APP_DESCRIPTION = "Space Terminal Project Manager";
 export const APP_AUTHOR = "Mottodigital";
 
 export const ROUTES = {
@@ -7,6 +7,8 @@ export const ROUTES = {
   signIn: "/sign-in",
   signUp: "/sign-up",
   dashboard: "/dashboard",
-  items: "/dashboard/items",
+  projects: "/dashboard",
+  tasks: "/dashboard/tasks",
+  resources: "/dashboard/resources",
   settings: "/dashboard/settings",
 } as const;

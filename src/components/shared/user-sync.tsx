@@ -1,12 +1,12 @@
 "use client";
 
-import { useUserSync } from "@/hooks/use-user-sync";
+import { useCurrentUser } from "@/hooks/use-current-user";
 
 /**
- * Invisible component that syncs Clerk user to Convex.
- * Place in a layout that wraps authenticated pages.
+ * Invisible component that ensures a user exists in Convex.
+ * In demo mode, auto-creates a demo user.
  */
 export function UserSync() {
-  useUserSync();
+  useCurrentUser();
   return null;
 }
